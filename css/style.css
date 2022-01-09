@@ -1,0 +1,188 @@
+body {
+    font-size: 14px;
+    background: rgb(61, 31, 4);
+}
+
+.wrap {
+    background: #fff;
+    width: 1000px;
+    margin: 60px auto;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 3);
+}
+
+
+/* header */
+
+.header {
+    overflow: hidden;
+}
+
+.header .pic {
+    width: 600px;
+    height: 340px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.header .pic img {
+    width: 600px;
+    height: 340px;
+}
+
+.header .info {}
+
+.header .info h1 {
+    font-size: 20px;
+    margin-bottom: 100px;
+    color: rgb(61, 31, 4);
+}
+
+.header .info p {
+    color: chocolate;
+}
+
+.header .info .social {}
+
+.header .info .social a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.header .info .social a img {
+    width: 32px;
+    height: 32px;
+}
+
+.header .info .mail {}
+
+.header .info .mail ::before {
+    content: "mail :";
+    color: chocolate;
+}
+
+.header .info .mail a {
+    text-decoration: none;
+    color: rgb(61, 31, 4);
+}
+
+.header .info .phone {
+    text-decoration: none;
+    color: rgb(61, 31, 4);
+}
+
+.header .info .phone::before {
+    content: "phone :";
+    color: chocolate;
+}
+
+
+/* skill */
+
+.skill {
+    overflow: hidden
+}
+
+.skill h2 {
+    font-size: 17px;
+    color: rgb(61, 31, 4);
+    margin-bottom: 0%;
+}
+
+.skill ul {
+    /* list-style: none; */
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.skill ul li {
+    width: 33%;
+    float: left;
+    margin-bottom: 10px;
+    color: rgb(61, 31, 4);
+}
+
+.skill ul li span {
+    color: chocolate;
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+/* experience */
+
+.experience {
+    overflow: hidden
+}
+
+.experience h2 {
+    font-size: 17px;
+    color: rgb(61, 31, 4);
+}
+
+.experience ul {
+    list-style: none;
+    float: left;
+    width: 50%;
+    padding: 0;
+    /* box-sizing: border-box; */
+    color: rgb(61, 31, 4);
+    font-size: 14px;
+}
+
+.experience ul li {
+    padding-left: 50px;
+    position: relative;
+}
+
+.experience ul li span {
+    color: #fff;
+}
+
+.experience ul li::before {
+    content: "✹";
+    position: absolute;
+    color: chocolate;
+    left: 0;
+}
+
+.experience ul li::after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    display: block;
+    background: chocolate;
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    top: 7px;
+}
+
+
+/* work  */
+
+.work {
+    overflow: hidden;
+}
+
+.work .pic {
+    width: 280px;
+    height: 280px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.work .pic img {
+    width: 280px;
+    height: 280px;
+    transition: 1s all;
+}
+
+.work .pic:hover img {
+    transform: scale(1, 1);
+}
